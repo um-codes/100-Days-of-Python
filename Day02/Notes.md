@@ -2,5 +2,7 @@
 ----
 Day 2 will cover data types like int, float, boolean and etc 
 
+And will also cover manipulating strings. 
+
 
 
