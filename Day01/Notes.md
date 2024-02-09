@@ -20,3 +20,29 @@ print("Name:", name, "Age:", age)
 This would output "Name: John Age: 30" to the console.
 
 In Python 3.x, `print()` is a function, so it requires parentheses around its arguments, whereas in Python 2.x, it was a statement and didn't require parentheses.
+
+----
+##### Single vs Double Quote
+---
+In Python, both single (`'`) and double (`"`) quotes can be used to define string literals. There is no functional difference between them; both can be used interchangeably to create strings. However, they can be useful in different situations:
+
+1. **String Quoting**: If your string itself contains a single quote, you might want to use double quotes to define the string, and vice versa. For example:
+```Python
+single_quoted = 'She said, "Hello!"' 
+double_quoted = "It's raining outside."
+```
+
+    
+    Using double quotes for the first string makes it easier to include the single quote inside the string without escaping it, and using single quotes for the second string makes it easier to include the apostrophe.
+    
+- **Mixing Quotes**: Sometimes, if you need to include both single and double quotes within a string, you can use one type of quote to define the string and the other type within the string without escaping them:
+    
+    python
+    
+
+1. `mixed_quotes = "He said, 'I'm fine.'"`
+    
+    In this case, using double quotes to define the string allows for including single quotes within it without escaping them.
+    
+
+In general, the choice between single and double quotes often comes down to personal preference or coding style conventions. It's important to maintain consistency within a codebase.
