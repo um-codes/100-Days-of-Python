@@ -32,17 +32,6 @@ single_quoted = 'She said, "Hello!"'
 double_quoted = "It's raining outside."
 ```
 
-    
-    Using double quotes for the first string makes it easier to include the single quote inside the string without escaping it, and using single quotes for the second string makes it easier to include the apostrophe.
-    
-- **Mixing Quotes**: Sometimes, if you need to include both single and double quotes within a string, you can use one type of quote to define the string and the other type within the string without escaping them:
-    
-    python
-    
-
-1. `mixed_quotes = "He said, 'I'm fine.'"`
-    
-    In this case, using double quotes to define the string allows for including single quotes within it without escaping them.
-    
+2. Using double quotes for the first string makes it easier to include the single quote inside the string without escaping it, and using single quotes for the second string makes it easier to include the apostrophe.
 
 In general, the choice between single and double quotes often comes down to personal preference or coding style conventions. It's important to maintain consistency within a codebase.
